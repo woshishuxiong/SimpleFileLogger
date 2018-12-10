@@ -15,6 +15,10 @@ int main()
 
     Trace("%s %d %d %d \n", "abc", 1, 2, 3);
 
+    Sleep(100);
+
+    Trace("def \n");
+
     LogRelease();
 
     system("PAUSE");
