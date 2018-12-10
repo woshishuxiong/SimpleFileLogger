@@ -11,7 +11,9 @@
 
 namespace SimpleFileLogger {
 
-    void LogInit();
+    void LogInit(const char* path);
+
+    void LogRelease();
 
     void Trace(const char *fmt, ...);
 }
