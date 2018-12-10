@@ -1,0 +1,9 @@
+﻿
+/build/Debug/
+/build/Release/
+/build/ipch/
+*.sdf
+*.suo
+*.user
+*.db
+*.log
